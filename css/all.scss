@@ -1,0 +1,50 @@
+.svg_wrap{
+    display: inline-block;
+}
+.sidebar{
+    height: 100vh;
+}
+.nav-link{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.bg-primary{
+    background-color: #EDF4EE !important;
+}
+.bg-secondary{
+    background-color: #2A8356 !important;
+}
+.text-primary{
+    color: #EDF4EE !important;
+}
+.text-secondary{
+    color: #2A8356 !important;
+}
+.self-pic-wrap{
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/photo-1514794749374-fb67509dbb7f.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+.list-group,.list-group-item{
+    border: none !important;
+}
+th{
+    border-top: none !important;
+}
+.fz-24{
+    font-size: 24px !important;
+}
+.lh-33{
+    line-height: 33px;
+}
+.pagination .page-item a.text-secondary:hover{
+        color: #fff !important;
+        background: #2A8356;
+}
+.pagination{
+    justify-content: flex-end;
+}
